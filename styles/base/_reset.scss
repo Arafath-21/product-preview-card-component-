@@ -1,0 +1,42 @@
+/* Box Sizing Reset */
+html {
+    box-sizing: border-box;
+  }
+  
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+  
+  /* Normalize some default margin and padding values */
+  body, h1, h2, h3, h4, h5, h6, p, figure {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Remove default list styles */
+  ul, ol, li {
+    list-style: none;
+  }
+  
+  /* Remove default hyperlink styles */
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  /* Remove underline on links within buttons */
+  button, [role="button"], a, [tabindex] {
+    &:focus {
+      outline: none;
+    }
+  }
+  
+  /* Set default font family and size */
+  body {
+    font-family: 'Arial', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  
+  /* Additional resets and styles can be added based on your project's needs */
+  

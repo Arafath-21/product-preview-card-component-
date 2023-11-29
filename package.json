@@ -1,0 +1,17 @@
+{
+  "name": "preview-card-component",
+  "version": "1.0.0",
+  "description": "HTML,CSS and preprocessor scss",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass styles/main.scss:dist/main.css",
+    "sass:watch": "sass --watch styles/main.scss:dist/main.css"
+  },
+  "author": "Arafath A",
+  "license": "ISC",
+  "dependencies": {
+    "autoprefixer": "^10.4.16",
+    "bootstrap-icons": "^1.11.2",
+    "sass": "^1.69.5"
+  }
+}
