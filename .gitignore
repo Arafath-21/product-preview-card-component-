@@ -16,7 +16,7 @@
 .prettierignore
 Design/
 style-guide.md/
-node-modules/
+node-modules
 package-lock.json/
 package.json/
 style-guide.md/
